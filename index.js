@@ -1,3 +1,3 @@
-//document.addEventListener('DOMContentLoaded', (event) => {
-   // alert('Bem-vindo ao meu portfólio!');
-//});
+document.addEventListener('DOMContentLoaded', (event) => {
+    alert('Bem-vindo ao meu portfólio!');
+});
