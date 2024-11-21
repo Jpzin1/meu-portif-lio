@@ -7,6 +7,11 @@ body {
     color: #333;
 }
 
+.main-container {
+   padding-left: 15%;
+   padding-right: 15%;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -72,3 +77,88 @@ a:hover {
 #contact a:hover {
     text-decoration: underline;
 }
+
+#habilidades {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#habilidades h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#habilidades p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.skills {
+    font-weight: bold;
+}
+
+.skills.html {
+    color: #000000;
+}
+
+.skills.css {
+    color: #000000;
+}
+
+.skills.js {
+    color: #000000;
+}
+
+.skills.node {
+    color: #000000;
+}
+
+.skills.mongo {
+    color: #000000;
+}
+
+.skills.java {
+    color: #000000;
+}
+
+.skills.c {
+    color: #000000;
+}
+
+.skills.python {
+    color: #000000;
+}
+
+.skills.c {
+    color: #000000;
+}
+
+
+* {box-sizing:border-box}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 100%; background-color: #FFA500;} 
+.css {width: 60%; background-color: #2196F3;} 
+.js {width: 80%; background-color: #FFFF00;} 
+.node {width: 70%; background-color: #68A063;}
+.mongo {width: 50%; background-color: #4DB33D;}
+.java {width: 90%; background-color: #f89820;}
+.c {width: 80%; background-color: #A8B9CC;}
+.python {width: 70%; background-color: #306998;}
+.cpp {width: 80%; background-color: #00599C;}
+
